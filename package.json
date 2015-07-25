@@ -4,7 +4,7 @@
   "description": "RPC between iframes and windows using postMessage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -33,5 +33,10 @@
     "callback-store": "0.0.1",
     "frame-message": "0.1.0",
     "state-emitter": "0.1.0"
+  },
+  "devDependencies": {
+    "fosify-test": "^0.1.5",
+    "foso": "^0.9.6",
+    "gulp": "^3.9.0"
   }
 }

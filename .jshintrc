@@ -19,6 +19,7 @@
   "maxlen": 80,
   "trailing": true, // Prohibit trailing whitespaces.
   "curly": true,
+  "expr": true,
   "globals": { // Globals variables.
   },
   "predef": [ // Extra globals.
