@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "callback-store": "0.0.1",
-    "frame-message": "0.1.0"
+    "frame-message": "0.1.0",
+    "state-emitter": "0.1.0"
   }
 }

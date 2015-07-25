@@ -6,7 +6,11 @@ var server = new Server({
 });
 
 $(function() {
-  server.addMethod('getInputValue', function(cb) {
-    cb($('input').val());
-  });
+  /* the timeout is just for testing the server/client connection */
+  setTimeout(function() {
+    server.addMethod('getInputValue', function(cb) {
+      cb($('input').val());
+    });
+    server.start();
+  }, 4000);
 });
