@@ -1,0 +1,36 @@
+{
+  "name": "frpc",
+  "version": "0.1.0",
+  "description": "RPC between iframes and windows using postMessage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkochan/frpc.git"
+  },
+  "keywords": [
+    "rpc",
+    "iframe",
+    "window",
+    "postMessage"
+  ],
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "zoltan.kochan@gmail.com",
+    "url": "http://kochan.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zkochan/frpc/issues"
+  },
+  "homepage": "https://github.com/zkochan/frpc#readme",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "dependencies": {
+    "callback-store": "0.0.1",
+    "frame-message": "0.1.0"
+  }
+}
