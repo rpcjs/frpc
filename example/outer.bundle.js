@@ -4,7 +4,9 @@ var Client = require('../lib/client');
 
 $(function() {
   var client = new Client({
-    target: document.getElementById('iframe').contentWindow
+    targets: [{
+      window: document.getElementById('iframe').contentWindow
+    }]
   });
   window.client = client;
 

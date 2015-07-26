@@ -2,7 +2,9 @@
 
 var Server = require('../lib/server');
 var server = new Server({
-  target: window.parent
+  targets: [{
+    window: window.parent
+  }]
 });
 
 $(function() {
