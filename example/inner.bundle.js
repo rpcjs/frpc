@@ -13,6 +13,5 @@ $(function() {
     server.addMethod('getInputValue', function(cb) {
       cb($('input').val());
     });
-    server.start();
   }, 4000);
 });
