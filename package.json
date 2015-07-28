@@ -1,6 +1,6 @@
 {
   "name": "frpc",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "RPC between iframes and windows using postMessage",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "bind-ponyfill": "^0.1.0",
-    "callback-store": "0.0.1",
+    "callback-store": "^0.1.0",
     "frame-message": "^0.2.0",
     "state-emitter": "0.1.0"
   },
