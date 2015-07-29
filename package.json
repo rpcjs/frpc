@@ -31,9 +31,9 @@
   },
   "dependencies": {
     "bind-ponyfill": "^0.1.0",
-    "callback-store": "^0.1.0",
+    "callback-store": "^0.2.1",
     "frame-message": "^0.2.0",
-    "state-emitter": "^0.1.1"
+    "state-emitter": "^0.2.0"
   },
   "devDependencies": {
     "fosify-test": "^0.1.5",
